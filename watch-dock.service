@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch docker deployments -> Telegram
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+EnvironmentFile=/opt/watch-dock/.env
+ExecStart=/opt/watch-dock/woof-woof.sh
+
