@@ -16,7 +16,7 @@ Watch Dock is a lightweight systemd timer plus Bash script that checks running D
 ## Installation
 1. Clone this repository onto the target host and enter it:
    ```bash
-   git clone https://github.com/<your-account>/watch-dock.git
+   git clone https://github.com/it0ps/watch-dock.git
    cd watch-dock
    ```
 2. Install the script and configuration directory (defaults assume `/opt/watch-dock`):
